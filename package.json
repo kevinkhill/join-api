@@ -1,8 +1,8 @@
 {
   "name": "join-api",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Node.js wrapper for the Join API",
-  "main": "join-api.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/kevinkhill/join-api#readme",
   "dependencies": {
+    "commander": "^2.11.0",
     "request": "^2.83.0"
   }
 }

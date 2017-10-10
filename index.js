@@ -1,8 +1,8 @@
+var request = require('request');
+
 /**
  * https://joaoapps.com/join/api/
  */
-var request = require('request');
-
 var PUSH_PARAMS = [
     'text',
     'title',
@@ -28,7 +28,7 @@ var PUSH_PARAMS = [
 
 function Join(options) {
     if (! options.apiKey) {
-        throw new Error('You must provide an API key to use Join Pusher.');
+        throw new Error('You must provide an API key to use the Join API.');
     }
 
     this.apiKey = options.apiKey;
